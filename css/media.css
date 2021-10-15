@@ -1,0 +1,611 @@
+@media (max-width: 1200px) {
+  .welcome {
+    width: 300px;
+  }
+
+  .hero {
+    padding: 62px 0 90px;
+    height: 100%;
+    position: relative;
+  }
+
+  .block-img {
+    max-width: 993px;
+  }
+
+  .map-png {
+    max-width: 994px;
+  }
+}
+@media (max-width: 992px) {
+  .hero {
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .map-png {
+    width: 100%;
+  }
+
+  .block-img {
+    width: 100%;
+  }
+
+  .p-sedona {
+    width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    height: 56px;
+    background: white;
+    position: sticky;
+  }
+
+  .map-png {
+    width: 100%;
+  }
+
+  .sedona-img {
+    width: 370px;
+  }
+
+  .hero {
+    min-height: 500px;
+    max-width: 768px;
+  }
+
+  .col-66 {
+    width: 66.666%;
+  }
+
+  .sedona-text2 {
+    font-size: 17px;
+  }
+
+  .text-new {
+    margin: 0 auto 15px;
+  }
+
+  .p-text {
+    margin-bottom: 10px;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+
+  .center-home {
+    margin: 0 auto;
+    padding: 38px 0 28px;
+  }
+
+  .grey-bac {
+    width: 435px;
+    height: 63px;
+  }
+
+  .col-img {
+    width: 100%;
+  }
+
+  .sedona-img {
+    width: 327px;
+  }
+
+  .grey-bac {
+    top: -8px;
+  }
+
+  .info-text {
+    font-weight: bold;
+    font-size: 19px;
+    padding: 21px 84px;
+  }
+
+  .burger-menu {
+    display: block;
+    background: none;
+    border: none;
+    width: 100px;
+  }
+
+  .secona-flex {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url("../images/background-photo.png");
+    width: 25vh;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+
+  .secona-link {
+    padding: 0;
+  }
+
+  .menu-burger-white {
+    width: 47px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .buttuon-poisk {
+    width: 364px;
+    height: 55px;
+  }
+
+  .input-value {
+    width: 296px;
+    height: 38px;
+  }
+
+  .input-fon {
+    width: 435px;
+    height: 395px;
+  }
+
+  .people-button-box {
+    margin-bottom: 30px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .people-button-box .adults-block .label-child {
+    min-width: 111px;
+  }
+
+  .people-button-box .adults-block {
+    margin-bottom: 30px;
+  }
+
+  .buttuon-poisk {
+    width: 364px;
+    height: 57px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 14px;
+  }
+
+  .block-footer-1 {
+    padding: 18px 34px;
+  }
+
+  .tel-href {
+    font-size: 12px;
+  }
+
+  .twiter {
+    padding: 10px;
+    width: 30px;
+  }
+
+  .twiter-face {
+    padding: 7px;
+    width: 22px;
+  }
+
+  .visitsedona {
+    font-size: 15px;
+  }
+
+  .p-sedona {
+    width: 160px;
+  }
+
+  .blue-fon {
+    padding: 28px 0 25px;
+  }
+
+  .col-img {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .logo-img {
+    width: 126px;
+  }
+
+  .welcome {
+    width: 170px;
+  }
+
+  .logo-sedona {
+    margin-bottom: 36px;
+    width: 178px;
+  }
+
+  .sedona-img {
+    width: 160px;
+    height: 117px;
+  }
+
+  .hero {
+    min-height: 100%;
+  }
+
+  .blue-fon {
+    padding: 13px 0 14px;
+  }
+
+  .sedona-text {
+    width: 259px;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 auto 8px;
+  }
+
+  .sedona-text2 {
+    font-size: 12px;
+    width: 200px;
+    margin: 0 auto;
+    line-height: 18px;
+  }
+
+  .col-img {
+    height: 150px;
+    width: 321px;
+  }
+
+  .p-sedona {
+    width: 200px;
+  }
+
+  .text-new {
+    margin: 0 auto 11px;
+    width: 195px;
+  }
+
+  .col-33 {
+    width: 100%;
+    background: #81B3D2;
+    text-align: center;
+  }
+
+  .margin-home {
+    margin-bottom: 10px;
+    width: 70px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .text-home {
+    width: 137px;
+  }
+
+  .info-text {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 9px 51px;
+  }
+
+  .input-fon {
+    width: 224px;
+    height: 306px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .people-button-box .adults-block label {
+    display: inline-block;
+    min-width: 74px;
+  }
+
+  .people-button-box .adults-block .label-child {
+    min-width: 74px;
+  }
+
+  .twiter {
+    padding: 7px;
+    width: 22px;
+  }
+
+  .twiter-face {
+    padding: 4px;
+    width: 16px;
+  }
+
+  .block-footer-1 {
+    padding: 4px 4px;
+  }
+
+  .visitsedona {
+    font-size: 10px;
+  }
+
+  .tel-href {
+    font-size: 8px;
+  }
+
+  .interes-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .box-text-box {
+    width: 300px;
+  }
+
+  .text-box {
+    padding: 19px 0 30px;
+  }
+
+  .map-png {
+    width: 100%;
+    height: 400px;
+  }
+
+  .menu-burger-white {
+    width: 33px;
+  }
+
+  .burger-menu {
+    width: 67px;
+    height: 50px;
+  }
+
+  .col-66 {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+
+  .col-img {
+    width: 100%;
+    height: 170px;
+  }
+
+  .input-fon {
+    width: 277px;
+    height: 306px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .grey-bac {
+    width: 277px;
+    height: 45px;
+    position: relative;
+    top: 10px;
+  }
+
+  .buttuon-poisk {
+    width: 152px;
+    bottom: 12px;
+    height: 34px;
+  }
+
+  .center-home-2 {
+    padding: 25px 0 25px;
+  }
+
+  .block-footer-1 {
+    padding: 7px 117px;
+    display: block;
+  }
+
+  .tel-href {
+    font-size: 10px;
+    margin-left: -21px;
+  }
+
+  .visitsedona {
+    font-size: 14px;
+    margin-left: -24px;
+  }
+
+  .people-button-box .adults-block {
+    margin-bottom: 19px;
+  }
+}
+@media (max-width: 992px) {
+  .searc-col {
+    margin-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    height: 56px;
+    background: white;
+    position: sticky;
+  }
+
+  .flex-title {
+    padding: 20px 6px 8px 36px;
+  }
+
+  .searc {
+    padding: 30px 65px 31px;
+  }
+
+  .menu-burger-white {
+    width: 40px;
+    background: none;
+    border: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #81B3D2;
+    width: 40vh;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    color: white;
+  }
+
+  .burger-menu {
+    display: block;
+    background: none;
+    border: none;
+    width: 100px;
+  }
+
+  .secona-link1 {
+    background: black;
+    border-radius: 30px;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+  }
+
+  .searc-col {
+    margin-right: 2px;
+  }
+
+  .mincraft-flex {
+    padding: 30px 27px;
+  }
+}
+@media (max-width: 576px) {
+  .mincraft-flex {
+    padding: 26px 18px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+  }
+
+  .searc {
+    padding: 2px;
+  }
+
+  .mincraft-flex .mincraft h3 {
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 23px;
+    width: 189px;
+  }
+
+  .mincraft-flex .mincraft {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .block-footer {
+    display: block;
+    align-items: center;
+    padding: 36px 104px 36px 116px;
+    margin-top: 5px;
+  }
+
+  .tel-href {
+    font-size: 14px;
+    margin-left: -50px;
+  }
+
+  .visitsedona {
+    font-size: 16px;
+    margin-left: -24px;
+  }
+
+  .flex-title {
+    display: block;
+    align-items: center;
+    flex-flow: row-reverse;
+    background: white;
+  }
+
+  .flex-title .title-text {
+    display: block;
+  }
+
+  .flex-title .title-text ul {
+    display: block;
+    padding: 0 50px;
+  }
+
+  .searc {
+    background: url(../images/new-list.png) center/cover;
+    padding: 25px 12px 31px;
+  }
+
+  .button-mine {
+    margin-top: 5px;
+  }
+
+  .searc-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  .searc-col {
+    display: inline-block;
+    margin-right: 0;
+  }
+
+  .inputs-box {
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
+
+  .chek-box-text {
+    display: table-caption;
+  }
+
+  .chekbox[disabled] + span {
+    display: unset;
+  }
+
+  .inputs-box::after {
+    display: none;
+  }
+
+  .inputs-box input {
+    border: none;
+    background: none;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .inputs-box {
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+
+  .noUi-target {
+    width: 73%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

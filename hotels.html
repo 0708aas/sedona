@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div id="header-ul" class="secona-flex">
+            <a class="secona-link" href="index.html">Информация</a>
+            <a class="secona-link" href="index.html#foto">Фото и видео</a>
+            <span class="secona-link"></span>
+            <a class="secona-link" href="#">Карта штата</a>
+            <a class="secona-link" href="#">Гостиницы</a>
+            <a class="secona-link1" href="https://www.google.com/">выйти</a>
+        </div>
+        <a class="secona-link" href="#"><img class="logo-img" src="images/logo.svg" alt="logo"></a>
+
+        <button id="mobile-menu" class="burger-menu">
+            <img class="menu-burger-white" src="images/burger-blackk.png" alt="menu">
+        </button>
+    </header>
+    <div class="searc">
+        <div class="row searc-row">
+            <div class="searc-col">
+                <div class="searc-title">
+                    Инфраструктура:
+                </div>
+
+
+                <div class="chekbox-box">
+                    <label>
+                        <input class="chekbox" type="checkbox">
+                        <span class="chek-box-text">Бассейн</span>
+                    </label>
+                </div>
+
+
+                <div class="chekbox-box">
+                    <label>
+                        <input class="chekbox" type="checkbox">
+                        <span class="chek-box-text">Парковка</span>
+                    </label>
+                </div>
+
+
+                <div class="chekbox-box">
+                    <label>
+                        <input disabled class="chekbox" type="checkbox">
+                        <span class="chek-box-text">Wi-Fi</span>
+                    </label>
+                </div>
+
+            </div>
+
+
+            <div class="searc-col">
+                <div class="searc-title">
+                    Тип жилья:
+                </div>
+
+
+                <div class="chekbox-box">
+                    <label>
+                        <input class="chekbox" type="checkbox">
+                        <span class="chek-box-text">Гостиница</span>
+                    </label>
+                </div>
+
+
+                <div class="chekbox-box">
+                    <label>
+                        <input class="chekbox" type="checkbox">
+                        <span class="chek-box-text">Мотель</span>
+                    </label>
+                </div>
+
+
+                <div class="chekbox-box">
+                    <label>
+                        <input checked disabled class="chekbox" type="checkbox">
+                        <span class="chek-box-text">Апартаменты</span>
+                    </label>
+                </div>
+
+            </div>
+
+            <div class="pricing-col">
+                <div class="pricing-title">Стоимость в сутки (Р):</div>
+                <div class="inputs-box">
+                    <label class="pricing-label">
+                        <input readonly type="text" class="pricing-input" value="от 0">
+                    </label>
+                    <label class="pricing-label">
+                        <input type="text" readonly class="pricing-input" value="До 3000">
+                    </label>
+
+                </div>
+                <div id="slider"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="flex-title">
+        <div class="title-text">
+
+            <h3>Найдено:</h3>
+            <div>
+                <ul>
+                    <li>Сортировка:</li>
+                    <li class="litgray">По цене</li>
+                    <li class="litgray">По типу</li>
+                    <li class="litgray">По рейтингу</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <img src="images/try.svg" alt="try">
+            <img src="images/tri.svg" alt="tro">
+        </div>
+    </div>
+
+    <div class="mincraft-flex">
+        <div class="mincraft">
+
+            <img class="img-rith" src="images/Layer%2021.png" alt="layer">
+            <div class="flex-mine">
+                <h3>Amara Resort & Spa</h3>
+                <div class="p-flex">
+                    <p>Гостиница</p>
+                    <p>От 4000 Р.</p>
+                </div>
+
+                <button>Подробнее</button>
+
+                <button class="button-mine">Забронировать</button>
+
+            </div>
+        </div>
+        <div class="zvezda">
+            <div class="zvezd">
+                <img src="images/zvezda.svg" alt="zvezda1">
+                <img src="images/zvezda.svg" alt="zvezda2">
+                <img src="images/zvezda.svg" alt="zvezda3">
+                <img src="images/zvezda.svg" alt="zvezda4">
+            </div>
+            <div class="raiting">Рейтинг: 8,5</div>
+        </div>
+    </div>
+
+
+    <div class="mincraft-flex">
+        <div class="mincraft">
+
+            <img class="img-rith" src="images/Layer%2089%20copy.png" alt="layer">
+            <div class="flex-mine">
+                <h3>ADesert Quail Inn</h3>
+                <div class="p-flex">
+                    <p>Мотель</p>
+                    <p>От 3000 Р.</p>
+                </div>
+
+                <button>Подробнее</button>
+
+                <button class="button-mine">Забронировать</button>
+
+            </div>
+        </div>
+        <div class="zvezda">
+            <div class="zvezd">
+                <img src="images/zvezda.svg" alt="zvezda2">
+                <img src="images/zvezda.svg" alt="zvezda3">
+                <img src="images/zvezda.svg" alt="zvezda4">
+            </div>
+            <div class="raiting">Рейтинг: 8,9</div>
+        </div>
+    </div>
+
+
+    <div class="mincraft-flex">
+        <div class="mincraft">
+
+            <img class="img-rith" src="images/kartimka.png" alt="layer">
+            <div class="flex-mine">
+                <h3>Villas at Poco Diablo</h3>
+                <div class="p-flex">
+                    <p>Апартаменты</p>
+                    <p>От 2000 Р.</p>
+                </div>
+
+                <button>Подробнее</button>
+
+                <button class="button-mine">Забронировать</button>
+
+            </div>
+        </div>
+        <div class="zvezda">
+            <div class="zvezd">
+                <img src="images/zvezda.svg" alt="zvezda3">
+                <img src="images/zvezda.svg" alt="zvezda4">
+            </div>
+            <div class="raiting">Рейтинг: 9,2</div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="block-footer">
+
+            <a class="tel-href" href="tel:+7(495) 666-01-66">ТЕЛ: +7(495) 666-01-66</a>
+            <div>
+                <a href="https://twitter.com/?lang=ru"><img class="twiter" src="images/twit.svg" alt="tw"></a>
+
+                <a href="https://www.facebook.com/v6.0/dialog/oauth/read/"><img class="twiter-face"
+                                                                                src="images/insta.svg" alt="tw"></a>
+
+                <a href="https://www.youtube.com/"><img class="twiter" src="images/youyube.svg" alt="tw"></a>
+
+            </div>
+
+
+            <div class="visitsedona">#visitSEDONA</div>
+
+
+        </div>
+
+
+    </footer>
+
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
