@@ -53,6 +53,8 @@ header {
   text-decoration: none;
   padding: 15px 0 15px;
   margin: 0 auto;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .logo-img {
@@ -99,6 +101,7 @@ header {
   font-size: 21px;
   line-height: 26px;
   margin: 0 auto 16px;
+  text-transform: uppercase;
 
 }
 
@@ -205,6 +208,7 @@ h2 {
   font-size: 14px;
   line-height: 21px;
   color: #333333;
+  text-transform: uppercase;
 
 }
 
@@ -247,6 +251,7 @@ h2 {
   line-height: 21px;
   color: #333333;
   margin: 0 auto;
+  text-transform: uppercase;
 }
 
 .text-box {
@@ -513,6 +518,8 @@ footer {
     align-items: center;
   }
 
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
 
   &:before {
@@ -757,6 +764,10 @@ footer {
 
 .secona-link1 {
   display: none;
+}
+.p-text-link{
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 
